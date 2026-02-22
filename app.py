@@ -62,6 +62,13 @@ HTML_TEMPLATE = '''
                     <input type="hidden" name="data" value="{{ report_content }}">
                     <button type="submit" class="btn btn-outline-success">⬇️ تحميل التقرير (TXT)</button>
                 </form>
+
+        <footer class="mt-5 text-center text-muted border-top pt-3">
+            <p>Developed by: <strong>Fawzi Srawi</strong></p>
+            <p>Al-Zaytoonah University of Jordan</p>
+        </footer>
+
+    </div> {% endif %}
             </div>
             {% endif %}
         </div>
