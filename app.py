@@ -46,7 +46,7 @@ HTML_TEMPLATE = '''
                 <h1 class="text-primary fw-bold">WebRecon Pro 🛡️</h1>
                 <div>
                     <span style="color: #cbd5e1; font-weight: 500;">Lead Developer:</span> <br>
-                    <div class="dev-badge">Fawzi Srawi</div>
+                    <div class="dev-badge">Fawzii Srawi</div>
                 </div>
                 <div class="uni-tag">Al-Zaytoonah University of Jordan</div>
             </div>
