@@ -46,7 +46,7 @@ pipeline {
             steps {
                 echo "Deploying the secure container..."
                 sh "docker rm -f webrecon_app || true"
-                sh "docker run -d -p 80:10000 --name webrecon_app ${DOCKER_IMAGE}"
+                sh "docker run -d -p 10000:10000 --name webrecon_app ${DOCKER_IMAGE}"
             }
         }
     }
